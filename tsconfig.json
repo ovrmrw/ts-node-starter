@@ -8,10 +8,11 @@
     "outDir": ".tscOutDir",
     "skipLibCheck": true,
     "strictNullChecks": true,
+    "noUnusedLocals": true,
     "lib": [
       "dom",
       "es2017"
-    ]
+    ]    
   },
   "exclude": [
     "node_modules"
