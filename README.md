@@ -7,7 +7,7 @@ ES2017's async/await feature is also enabled.
 
 |Compiler|version|
 |:--|:--|
-|typescript|2.1.4|
+|typescript|2.1.5|
 
 ||My Environments|
 |:--|:--|
