@@ -3,7 +3,7 @@ Starter kit for Node.js using TypeScript.
 
 ---
 
-ES2017's async/await feature is also enabled.
+TypeScript 2.1 compatible.
 
 |Compiler|version|
 |:--|:--|
@@ -17,6 +17,8 @@ ES2017's async/await feature is also enabled.
 
 ## Setup
 ```
+$ yarn install
+or
 $ npm install
 ```
 
