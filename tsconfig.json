@@ -8,14 +8,18 @@
     "outDir": ".tscOutDir",
     "skipLibCheck": true,
     "strictNullChecks": true,
-    "importHelpers": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "importHelpers": false,
     "lib": [
       "dom",
       "es2017"
     ],
     "typeRoots": [
       "node_modules/@types"
-    ]
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
   "exclude": [
     "node_modules"
