@@ -7,7 +7,7 @@ TypeScript 2.1 compatible.
 
 |Compiler|version|
 |:--|:--|
-|typescript|2.1.5|
+|typescript|2.2.0|
 
 ||My Environments|
 |:--|:--|
@@ -18,8 +18,6 @@ TypeScript 2.1 compatible.
 ## Setup
 ```
 $ yarn install
-or
-$ npm install
 ```
 
 ## Run (ts files directly)
