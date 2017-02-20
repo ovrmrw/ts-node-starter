@@ -7,13 +7,13 @@ TypeScript 2.1 compatible.
 
 |Compiler|version|
 |:--|:--|
-|typescript|2.2.0|
+|typescript|2.1.6|
 
 ||My Environments|
 |:--|:--|
 |OS|Windows 10 Pro 64bit or 7 Pro 32bit|
 |Editor|VSCode (stable)|
-|node --version|v6.9.4|
+|node --version|v6.9.5|
 
 ## Setup
 ```
