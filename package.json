@@ -8,8 +8,9 @@
     "tsc:w": "tsc --outDir .dest --watch",
     "build": "npm run tsc",
     "build:w": "npm run tsc:w",
-    "start": "nodemon index.ts --exec ts-node",
-    "ts": "ts-node"
+    "start": "nodemon --exec ts-node index.ts",
+    "ts": "ts-node",
+    "nts": "nodemon --exec ts-node"
   },
   "keywords": [],
   "author": "",

@@ -7,7 +7,7 @@ TypeScript 2.1 compatible.
 
 |Compiler|version|
 |:--|:--|
-|typescript|2.1.6|
+|typescript|2.2.0|
 
 ||My Environments|
 |:--|:--|
