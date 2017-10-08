@@ -1,4 +1,3 @@
-import 'core-js'
 import * as lodash from 'lodash'
 
 
