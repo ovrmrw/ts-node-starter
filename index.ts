@@ -1,3 +1,4 @@
+import 'core-js'
 import * as lodash from 'lodash'
 
 
@@ -40,4 +41,3 @@ async function asyncFunc() {
 }
 
 asyncFunc() // comment-out this line will cause of TypeError due to "noUnusedLocals".
-
