@@ -3,24 +3,28 @@ Starter kit for Node.js using TypeScript.
 
 ---
 
-TypeScript 2.5 compatible.
+TypeScript 2.7 compatible.
 
 ## Setup
 ```
 $ npm install
 ```
 
-## Run and Watch (ts files directly)
+## Run (src/index.ts)
 ```
 $ npm start
+or
+$ npm run ts src/index.ts
 ```
 
-## Run once (ts files directly)
+## Build & Run (build/index.js)
 ```
-$ npm run ts index
+$ npm run bs build/index.js
 ```
 
-## Build JS files
+## Run & Watch
 ```
-$ npm run build
+$ npm run watch
+or
+$ npm run nd src/index.ts
 ```
