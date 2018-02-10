@@ -14,7 +14,8 @@
     "ts": "ts-node",
     "nd": "nodemon --exec ts-node",
     "bs": "npm run build && node",
-    "test": "jest"
+    "test": "jest",
+    "test:w": "jest --watch"
   },
   "keywords": [],
   "author": "",

@@ -22,9 +22,19 @@ $ npm run ts src/index.ts
 $ npm run bs build/index.js
 ```
 
-## Run & Watch
+## Run (watch mode)
 ```
 $ npm run watch
 or
 $ npm run nd src/index.ts
+```
+
+## Test (one-time)
+```
+$ npm test
+```
+
+## Test (watch mode)
+```
+$ npm run test:w
 ```
