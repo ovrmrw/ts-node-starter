@@ -1,5 +1,9 @@
 {
     "jsRules": {
+        "extends": [
+            "tslint:latest",
+            "tslint-config-prettier"
+        ],
         "class-name": true,
         "comment-format": [
             true,
@@ -46,6 +50,10 @@
         "eofline": true
     },
     "rules": {
+        "extends": [
+            "tslint:latest",
+            "tslint-config-prettier"
+        ],
         "class-name": true,
         "comment-format": [
             true,

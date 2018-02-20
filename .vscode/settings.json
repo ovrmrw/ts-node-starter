@@ -3,5 +3,8 @@
   "[typescript]": {
     "editor.formatOnSave": true
   },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
   "tslint.autoFixOnSave": true
 }
