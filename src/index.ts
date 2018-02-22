@@ -1,7 +1,7 @@
-import * as lodash from 'lodash';
+import { flow, flattenDeep, uniq, orderBy } from 'lodash';
 
-export function customRange(start: number, length: number): number[] {
-  return lodash.range(start, start + length);
-}
+const list = [1, 2, 3, 2, [5, [4, 1]]];
 
-console.log(customRange(1, 10));
+export const flattenUniqOrderBy = flow(flattenDeep, uniq, orderBy);
+
+console.log(flattenUniqOrderBy(list));

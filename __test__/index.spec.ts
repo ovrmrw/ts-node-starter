@@ -1,9 +1,10 @@
-import { customRange } from '../src';
+import { flattenUniqOrderBy } from '../src';
 
-describe('customRange', () => {
+describe('flattenUniqOrderBy', () => {
   it('must return expected number array.', () => {
-    const expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    const actual = customRange(1, 10);
+    const expected = [1, 2, 3, 4, 5];
+    const list = [1, 2, 3, 2, [5, [4, 1]]];
+    const actual = flattenUniqOrderBy(list);
     expect(actual).toEqual(expected);
   });
 });
