@@ -3,7 +3,7 @@ Starter kit for Node.js using TypeScript.
 
 ---
 
-TypeScript 2.9 compatible.
+TypeScript 3.0 compatible.
 
 ## Setup
 ```
