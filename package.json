@@ -17,6 +17,10 @@
     "test": "jest",
     "test:w": "jest --watch"
   },
+  "engines": {
+    "node": ">= 10",
+    "npm": ">= 6.4"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
@@ -40,15 +44,15 @@
     "@types/lodash": "^4.14.77",
     "@types/node": "^8.0.33",
     "jest": "^23.4.2",
-    "nodemon": "^1.14.12",
-    "prettier": "^1.14.0",
+    "nodemon": "1.18.10",
+    "prettier": "1.16.4",
     "ts-jest": "^23.0.1",
-    "ts-node": "^7.0.0",
-    "tslint": "^5.11.0",
+    "ts-node": "8.0.3",
+    "tslint": "5.14.0",
     "tslint-config-prettier": "^1.8.0",
-    "typescript": "^3.0.1"
+    "typescript": "3.3.3333"
   },
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "4.17.11"
   }
 }
